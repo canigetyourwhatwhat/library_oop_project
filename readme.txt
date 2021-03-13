@@ -15,7 +15,7 @@
 
 3. State which file and which function you read the book data, just high-level function calls, i.e., how/where it gets into your collections.
 
---> After creating a book object in Manager.cpp, I use setInfo(ifstream&) to retrieve information and set data in the book object. This function is virtual function of Book object, and each derived class of book object reads each input in the file by using the codes provided by professor Zander. 
+--> After creating a book object in Manager.cpp, I use setInfo(ifstream&) to retrieve information and set data in the book object. This function is virtual function of Book object, and each derived class of book object reads each input in the file. 
 
 ----------------------------------------------------------------------------
 
