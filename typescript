@@ -1,0 +1,169 @@
+Script started on Thu 11 Mar 2021 10:27:53 PM PST
+]0;daicha2@csslab9:~/343/hw_4[?1034h[daicha2@csslab9 hw_4]$ valgrind ./t[Kg++ -std=c++11 *.cpp
+]0;daicha2@csslab9:~/343/hw_4[daicha2@csslab9 hw_4]$ g++ -std=c++11 *.cpp[8Pvalgrind ./t[C[C[Ka.out
+==12460== Memcheck, a memory error detector
+==12460== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12460== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12460== Command: ./a.out
+==12460== 
+ERROR: X is not a valid Book type.
+ERROR: Z is not a valid Book type.
+
+FICTION BOOKS
+AVAIL AUTHOR                          TITLE                                       YEAR
+5     Daheim Mary                     Fowl Prey                                   1991
+5     Daheim Mary                     The Alpine Advocate                         1992
+5     Daheim Mary                     The Alpine Betrayal                         1993
+5     Forster E. M.                   The Longest Journey                         1922
+5     Higgins Colin                   Harold and Maude                            1971
+5     Kerouac Jack                    On the Road                                 1955
+5     Kerouac Jack                    The Dharma Bums                             1958
+5     Lawrence D. H.                  Lady Chatterley's Lover                     1928
+5     Lawrence D. H.                  Sons and Lovers                             1913
+5     Lewis Sinclair                  Babbitt                                     1922
+5     Muller Marcia                   Edwin of the Iron Shoes                     1977
+5     Muller Marcia                   Eye of the Storm                            1988
+5     Pirsig Robert                   Zen & the Art of Motorcycle Maint           1974
+5     Tolkien J.R.R.                  The Hobbit                                  1937
+5     Walker Alice                    The Color Purple                            1982
+5     Wright Richard                  Native Son                                  1940
+
+PERIODICALS
+AVAIL  YEAR  MONTH  TITLE
+5      2009  1      Vegetarian Times                          
+5      2009  2      Communications of the ACM                 
+5      2009  2      Vegetarian Times                          
+5      2009  3      Communications of the ACM                 
+5      2009  4      Communications of the ACM                 
+5      2009  5      Communications of the ACM                 
+5      2009  7      Communications of the ACM                 
+5      2009  7      Sigart Bulletin                           
+5      2010  1      Communications of the ACM                 
+5      2010  1      Vegetarian Times                          
+5      2010  2      Communications of the ACM                 
+5      2010  3      Communications of the ACM                 
+5      2010  12      Vegetarian Times                          
+5      2012  3      Communications of the ACM                 
+
+YOUTH BOOKS
+AVAIL TITLE                                     AUTHOR                            YEAR
+5     As the Waltz was Ending                   Butterworth Emma Macalik          1982
+5     Danny Dunn & the Homework Machine         Williams Jay                      1959
+5     Horton hears a Who                        Seuss Dr.                         1954
+5     I Hate My Brother Harry                   Dragonwagon Crescent              1983
+5     If you give a mouse a cookie              Numeroff Laura                    1985
+5     Martha the Movie Mouse                    Lobel Arnold                      1966
+5     Old Lars                                  Magnus Erica                      1984
+5     Penelope Gets Wheels                      Peterson Esther Allen             1982
+5     Robots and Intelligent Machines           Litterick Ian                     1984
+5     Smokey                                    Peet Bill                         1962
+5     The Secret Life of Mr. Weird              Allen Jeffrey                     1982
+5     Treehorn's Wish                           Heide Florence Parry              1984
+5     Yertle the Turtle                         Seuss Dr.                         1950
+
+1000 Minnie Mouse
+1111 Mickey Mouse
+5000 Bullwinkle Moose
+ERROR: There is no patron with ID 5678
+ERROR: Z is not a valid command type.
+ERROR: X is not a valid Book format type.
+ERROR: X is not a valid Book type.
+ERROR: There is no patron with ID 1234
+This book doesn't exist in our library
+This book doesn't exist in our library
+ERROR: X is not a valid command type.
+ERROR: This book doesn't have available copy.
+ERROR: This book doesn't have available copy.
+ERROR: This book doesn't have available copy.
+
+FICTION BOOKS
+AVAIL AUTHOR                          TITLE                                       YEAR
+5     Daheim Mary                     Fowl Prey                                   1991
+4     Daheim Mary                     The Alpine Advocate                         1992
+4     Daheim Mary                     The Alpine Betrayal                         1993
+4     Forster E. M.                   The Longest Journey                         1922
+1     Higgins Colin                   Harold and Maude                            1971
+4     Kerouac Jack                    On the Road                                 1955
+4     Kerouac Jack                    The Dharma Bums                             1958
+4     Lawrence D. H.                  Lady Chatterley's Lover                     1928
+5     Lawrence D. H.                  Sons and Lovers                             1913
+4     Lewis Sinclair                  Babbitt                                     1922
+4     Muller Marcia                   Edwin of the Iron Shoes                     1977
+4     Muller Marcia                   Eye of the Storm                            1988
+4     Pirsig Robert                   Zen & the Art of Motorcycle Maint           1974
+4     Tolkien J.R.R.                  The Hobbit                                  1937
+4     Walker Alice                    The Color Purple                            1982
+4     Wright Richard                  Native Son                                  1940
+
+PERIODICALS
+AVAIL  YEAR  MONTH  TITLE
+5      2009  1      Vegetarian Times                          
+5      2009  2      Communications of the ACM                 
+5      2009  2      Vegetarian Times                          
+5      2009  3      Communications of the ACM                 
+5      2009  4      Communications of the ACM                 
+5      2009  5      Communications of the ACM                 
+4      2009  7      Communications of the ACM                 
+4      2009  7      Sigart Bulletin                           
+4      2010  1      Communications of the ACM                 
+5      2010  1      Vegetarian Times                          
+4      2010  2      Communications of the ACM                 
+5      2010  3      Communications of the ACM                 
+5      2010  12      Vegetarian Times                          
+5      2012  3      Communications of the ACM                 
+
+YOUTH BOOKS
+AVAIL TITLE                                     AUTHOR                            YEAR
+5     As the Waltz was Ending                   Butterworth Emma Macalik          1982
+4     Danny Dunn & the Homework Machine         Williams Jay                      1959
+5     Horton hears a Who                        Seuss Dr.                         1954
+5     I Hate My Brother Harry                   Dragonwagon Crescent              1983
+5     If you give a mouse a cookie              Numeroff Laura                    1985
+5     Martha the Movie Mouse                    Lobel Arnold                      1966
+4     Old Lars                                  Magnus Erica                      1984
+5     Penelope Gets Wheels                      Peterson Esther Allen             1982
+5     Robots and Intelligent Machines           Litterick Ian                     1984
+4     Smokey                                    Peet Bill                         1962
+5     The Secret Life of Mr. Weird              Allen Jeffrey                     1982
+4     Treehorn's Wish                           Heide Florence Parry              1984
+4     Yertle the Turtle                         Seuss Dr.                         1950
+
+1000 Minnie Mouse
+  CheckOut Muller Marcia                   Edwin of the Iron Shoes                     1977
+  CheckOut Muller Marcia                   Eye of the Storm                            1988
+  CheckOut Higgins Colin                   Harold and Maude                            1971
+1111 Mickey Mouse
+  CheckOut  2010  1      Communications of the ACM                 
+  CheckOut Danny Dunn & the Homework Machine         Williams Jay                      1959
+  Return   Danny Dunn & the Homework Machine         Williams Jay                      1959
+  CheckOut  2010  2      Communications of the ACM                 
+  CheckOut  2009  7      Communications of the ACM                 
+  CheckOut Higgins Colin                   Harold and Maude                            1971
+5000 Bullwinkle Moose
+  CheckOut Danny Dunn & the Homework Machine         Williams Jay                      1959
+  Return   Danny Dunn & the Homework Machine         Williams Jay                      1959
+  CheckOut Treehorn's Wish                           Heide Florence Parry              1984
+  CheckOut Old Lars                                  Magnus Erica                      1984
+  CheckOut Smokey                                    Peet Bill                         1962
+  CheckOut Yertle the Turtle                         Seuss Dr.                         1950
+  CheckOut Higgins Colin                   Harold and Maude                            1971
+  CheckOut Lewis Sinclair                  Babbitt                                     1922
+  CheckOut Higgins Colin                   Harold and Maude                            1971
+8888 Porky Pig
+  CheckOut Forster E. M.                   The Longest Journey                         1922
+  CheckOut Walker Alice                    The Color Purple                            1982
+  CheckOut Wright Richard                  Native Son                                  1940
+  CheckOut Lawrence D. H.                  Lady Chatterley's Lover                     1928
+  CheckOut Higgins Colin                   Harold and Maude                            1971
+==12460== 
+==12460== HEAP SUMMARY:
+==12460==     in use at exit: 0 bytes in 0 blocks
+==12460==   total heap usage: 545 allocs, 545 frees, 207,091 bytes allocated
+==12460== 
+==12460== All heap blocks were freed -- no leaks are possible
+==12460== 
+==12460== For lists of detected and suppressed errors, rerun with: -s
+==12460== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;daicha2@csslab9:~/343/hw_4[daicha2@csslab9 hw_4]$ exit
+
+Script done on Thu 11 Mar 2021 10:28:39 PM PST
